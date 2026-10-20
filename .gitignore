@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+.DS_Store
+# rebuilt by `python src/train.py`
+models/model.joblib

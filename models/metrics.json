@@ -1,0 +1,17 @@
+{
+  "train_rows": 138066,
+  "test_rows": 5136,
+  "test_period": [
+    "2018-01-01",
+    "2018-08-03"
+  ],
+  "mean_load_mw_in_test": 5848.0,
+  "seasonal_average_baseline": {
+    "MAE": 510.9,
+    "RMSE": 685.5
+  },
+  "random_forest": {
+    "MAE": 510.9,
+    "RMSE": 685.4
+  }
+}
