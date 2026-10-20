@@ -17,6 +17,10 @@ Train on 2002-2017, test on the held-out 2018 data (Jan to Aug, 5,136 hours, mea
 
 An earlier version of this project included `year` as a feature. A tree model cannot extrapolate to a year it has not seen, and it made the test error worse (MAE 552 MW vs 511 MW), so it was removed.
 
+The Streamlit dashboard:
+
+![App screenshot](images/app_screenshot.jpg)
+
 ## Run it
 
 ```bash
